@@ -1,0 +1,18 @@
+  {
+            "id": 125,
+            "name": "Шкаф",
+            "package_params": {
+                "width": 2,
+                "height": 2
+            },
+            "location_and_quantity": [
+                {
+                    "location": "Ашан",
+                    "amount": 1
+                },
+                {
+                    "location": "Мегастрой",
+                    "amount": 1
+                }
+            ]
+  }
