@@ -150,3 +150,7 @@ def main() -> str:
             return "Запись не была добавлена"
     else:
         return "Json не валидный"
+
+
+if __name__ == "__main__":
+    main()

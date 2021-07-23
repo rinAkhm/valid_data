@@ -1,15 +1,10 @@
 import unittest
-from main import create_tables
-from main import connect_db
-from main import check_json
-
-from main import recording_data
+from main import create_tables, connect_db, check_json, recording_data
+from unittest import TestCase
 import os
 
-# sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-
-class RecordingDbTestCase(unittest.TestCase):
+class RecordingDbTestCase(TestCase):
     def setUp(self) -> None:
         self.name_database = os.path.join(
             os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "Goods.db"
@@ -38,3 +33,7 @@ class RecordingDbTestCase(unittest.TestCase):
     def test_read_json(self):
         """Проверяет работу функции read_json."""
         self.assertIsInstance(self.data, dict)
+
+
+if __name__ == '__main__':
+    unittest.main()
