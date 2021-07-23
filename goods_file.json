@@ -1,0 +1,18 @@
+  {
+            "id": 122,
+            "name": "Часы",
+            "package_params": {
+                "width": 2,
+                "height": 2
+            },
+            "location_and_quantity": [
+                {
+                    "location": "Магнит",
+                    "amount": 1
+                },
+                {
+                    "location": "пятерочка",
+                    "amount": 1
+                }
+            ]
+  }
